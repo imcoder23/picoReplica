@@ -1,0 +1,93 @@
+
+body{
+  background-color: #2A2A2A;
+}
+
+
+.navigation{
+  height:80px;
+  background-color: black;
+}
+
+.navigation p{
+  color:white;
+  float:left;
+  font-size:24px;
+  font-weight: bold;
+  padding: 0px 15px 15px 35px;
+}
+.navigation ul{
+  float:right;
+  color:white;
+}
+.navigation li{
+  display:inline-block;
+  padding: 10px 30px 15px 35px;
+  text-transform: uppercase;
+}
+.navigation a{
+  text-decoration: none;
+  color:white;
+}
+.navigation li.active a{
+color:#FF6760;
+}
+.header{
+  text-align: center;
+  color: #D8D8D8;
+  height:260px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header h1{
+  font-weight:300px;/*not working???*/
+  font-size:48px;
+}
+.header a{
+  text-transform: uppercase;
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+.features{
+  background-color: #F6F6F6;
+  color: #616161;
+  height: 570px;
+}
+
+.item{
+  float: left;
+    margin: 25px 0;
+    padding: 5px 0 20px 0;
+    text-align: center;
+	  width: 33.3333333333%;
+}
+.item h3{
+  font-size: 20px;
+	padding: 5px 0;
+}
+
+.item p{
+  font-size: 16px;
+	padding: 10px 0;
+}
+
+.footer{
+  color: #D8D8D8;
+  text-align: center;
+
+}
+.footer h4{
+  font-size:24px;
+  margin: 50px 0 25px 0;
+}
+.footer p a{
+  color:#793F3D;
+}
+
+.socialIcon img{
+  border-radius: 30px;
+}
